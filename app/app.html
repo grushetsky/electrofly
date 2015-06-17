@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Electrofly</title>
+  <script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+  <script>
+    var socket = io('http://localhost:5678')
+    socket.on('connect', function () {})
+    socket.on('transition', function (data) {
+      document.getElementById('alien-view').src = data.url
+    })
+    socket.on('disconnect', function () {})
+  </script>
+</head>
+<body>
+  <webview id="alien-view" style="display:inline-block; width: 100%; height: 1080px" autosize="on" src="about:blank"></webview>
+</body>
+</html>

@@ -1,0 +1,11 @@
+build/
+debug/
+node_modules/
+bower_components/
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed

@@ -1,0 +1,7 @@
+{
+  "name": "electrofly",
+  "version": "0.1.0",
+  "description": "Electron-powered frontend for Butterfly",
+  "license": "\"IT Sphere\" Proprietary License",
+  "main": "backend.js"
+}

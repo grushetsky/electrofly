@@ -1,0 +1,10 @@
+{
+  "name": "electrofly-host",
+  "version": "0.1.0",
+  "description": "Hosting development environment for Electrofly",
+  "license": "\"IT Sphere\" Proprietary License",
+  "devDependencies": {
+    "electron-prebuilt": "^0.28.1",
+    "gulp": "^3.9.0"
+  }
+}
